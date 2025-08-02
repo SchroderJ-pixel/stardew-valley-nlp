@@ -1,3 +1,48 @@
+# Web Mining and Applied NLP (44-620)
+
+### Mod 7: Final Project — Article Summarizer  
+**Name:** Justin Schroder  
+**Date:** 8/2/2025
+**GitHub Link:** [https://github.com/SchroderJ-pixel](https://github.com/SchroderJ-pixel)
+
+---
+
+## 📄 Project Overview
+
+This project focuses on natural language processing techniques to summarize a web article. It walks through the full pipeline — from scraping and parsing the article's HTML to analyzing sentiment, lemmatizing content, and generating summary sentences based on polarity scores.
+
+The goal was to create two separate summaries:
+- One using token-based sentiment analysis
+- One using lemma-based sentiment analysis
+
+Both were compared to the original article in terms of sentiment and content quality.
+
+---
+
+## 🧠 Key Concepts Used
+
+- Web scraping with **BeautifulSoup**
+- Sentiment analysis using **spaCyTextBlob**
+- Tokenization and **lemmatization** via **spaCy**
+- Frequency analysis with **Counter**
+- Data visualization with **matplotlib**
+- Summary generation using **sentiment-based filtering**
+
+---
+
+## 📊 Summary of Findings
+
+- The original article had a fairly neutral tone with a polarity score around `0.06`.
+- Both summaries had higher polarity scores (~0.33–0.34), since they focused on more emotionally expressive or positive sentences.
+- The **token-based summary** felt more natural and closer to the article’s original flow, while the **lemma-based version** sometimes lost nuance.
+
+---
+
+## 📌 Final Thoughts
+
+This project was a great hands-on way to apply real-world NLP techniques and see how even small preprocessing steps (like lemmatization) can impact results. It also reinforced how important sentence selection is when trying to summarize longer content accurately and clearly.
+
+
 # Final Project: Article Summarizer
 
 Complete the tasks in the Python Notebook in this repository.
